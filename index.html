@@ -1,18 +1,25 @@
-<!DOCTYPE html>
-<html>
+<html style="height: 100%;">
 <head>
+    <meta name="viewport" content="width=device-width, minimum-scale=0.1">
+    <title>WebexCMHALogo.jpg</title>
     <style>
         body {
+            margin: 0;
+            height: 100%;
+            background-color: rgb(14, 14, 14);
             background-image: url('WebexCMHALogo.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: auto;
-            background-position: center center;
-            background-color: #000;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            background-size: cover;
+            background-position: center;
+        }
+        img {
+            display: block;
+            -webkit-user-select: none;
+            margin: auto;
+            cursor: zoom-in;
+            background-color: hsl(0, 0%, 90%);
+            transition: background-color 300ms;
         }
     </style>
 </head>
